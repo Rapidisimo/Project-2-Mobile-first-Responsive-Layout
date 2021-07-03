@@ -7,12 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <title>Josu&eacute; R. Responsive Portfolio</title>
 </head>
 <body>
-    <header id="home" class="row">
+    <header id="home">
         <h1 class="myname">Student Name</h1>
         <nav>
             <ul class="main-nav">
@@ -24,13 +26,16 @@
             </ul>
         </nav>
     </header>
-    <section class="intro">
-        <img src="images/responsive-layout-profile.png" alt="profile photo">
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently 
-            finished a degree in front-end web development at Treehouse and am excited to 
-            put all my skills to use!</p>   
+    <section>
+        <h2 class="section-title">Welcome</h2>
+        <div class="intro">
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I am currently 
+                in the front-end web development degree at <span class="treehouse"><a href="https://teamtreehouse.com/josuerodriguez">Treehouse</a></span> and am excited to 
+                put all my skills to use through projects!</p>
+            <img src="images/responsive-layout-profile.png" alt="profile photo">
+        </div>
     </section>
-    <h2>PORTFOLIO</h2>
+    <h2 class="section-title">PORTFOLIO</h2>
     <main id="portfolio" class="portfolio">
         <section class="col primarycol">
         <img src="images/portfolio-1.png" alt="gray website screenshot">
@@ -68,28 +73,30 @@
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
         </section>
     </main>
-    <section class="skills row">
-        <h2>SKILLS</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>javascript</li>
-            <li>Graphic Design</li>
-            <li>Photography</li>
-            <li>Videography</li>
-        </ul>
-        <p>As I've heard <a href="https://twitter.com/stalman" target="_blank">Tyler Stalman</a> say many a times...I like to think of my self as Full Stack Designer.
-            My skill list allows me to be involved with many facets of a project. It's something I enjoy very much and believe having a larger picture allows me to better
-            understand and achieve the goals for a project.</p>
+    <section>
+        <h2 class="section-title">SKILLS</h2>
+        <div class="skills">
+            <ul>
+                <li><a href="#portfolio">HTML</a></li>
+                <li><a href="#portfolio">CSS</a></li>
+                <li><a href="#porfolio">javascript</a></li>
+                <li><a href="#portfolio">Graphic Design</a></li>
+                <li><a href="https://instagram.com/foodtechlife_" target="_blank">Photography</a></li>
+                <li><a href="https://youtube.com/foodtechlife" target="_blank">Videography</a></li>
+            </ul>
+            <p class="skills-snip">My skill set allows me to express creativity in different mediums. It's something I enjoy very much. If I were to give it a title then I would adopt: Full Stack Creator. I first heard this term from <a href="https://twitter.com/stalman" target="_blank">Tyler Stalman</a> and it's something I can relate to.</p>
+        </div>
     </section>
-    <section id="contact" class="row">
-        <h2>CONTACT</h2>
-        <p>If you're interested in chatting or want more information about what I've been working on, 
-            I'd love to hear from you!</p>
-        <address>
-            <a href="tel:+1111555-1234">Phone &nbsp; <strong>&plus;1 &lpar;111&rpar; 555-1234</strong></a><br>
-            <a href="mailto:email@yoursite.com">Email &nbsp; <strong>email&commat;yoursite&period;com</strong></a>
-        </address>    
+    <section>
+        <h2 class="section-title">CONTACT</h2>
+        <div id="contact">
+            <p>If you're interested in chatting or want more information about what I've been working on, 
+                I'd love to hear from you!</p>
+            <address>
+                <a href="tel:+1111555-1234">Phone &nbsp; <strong>&plus;1 &lpar;111&rpar; 555-1234</strong></a><br>
+                <a href="mailto:email@yoursite.com">Email &nbsp; <strong>email&commat;yoursite&period;com</strong></a>
+            </address>
+        </div>
     </section>
     <footer>
         <ul class="mobile">
