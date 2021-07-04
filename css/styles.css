@@ -228,7 +228,7 @@ footer {
 
     body {
         width: 96%;
-        max-width: 1400px;    
+        max-width: 1024px;    
     }
     .tablet-name {
         display: flex;
